@@ -241,7 +241,7 @@ export default function InicioSaborami() {
 
   // 🔥 CAMBIO 1: Si el fondo es vacío, restaurar la imagen por defecto
   const handleFondoChange = (fondo: string) => {
-    setFondoPersonalizado(fondo || '/fondos/fondosaborami.jpg');
+    setFondoPersonalizado(fondo || '/fondos/fondosaborami.png');
   };
 
   const formatearFecha = (fecha: Timestamp | string | Date | null | undefined): string => {
